@@ -61,13 +61,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  _______,  _______,            _______,  _______,  _______,                       _______,            _______,                      KC_HOME,  KC_PGDN,  KC_END),
 };
 
-#if defined(ENCODER_ENABLE) && defined(ENCODER_MAP_ENABLE)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [LNX_BASE] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [L_FN]     = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [WIN_BASE] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [W_FN]     = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-};
-#endif // ENCODER_MAP_ENABLE
-
 // clang-format on
