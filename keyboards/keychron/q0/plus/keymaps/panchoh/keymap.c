@@ -41,6 +41,15 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
 #endif // ENCODER_MAP_ENABLE
 
 // clang-format on
+//
+// https://github.com/qmk/qmk_firmware/blob/master/docs/custom_quantum_functions.md
+/* void keyboard_post_init_user(void) { */
+/*     if (rgb_matrix_config.enable) { */
+/*         rgb_matrix_set_flags(LED_FLAG_NONE); */
+/*         rgb_matrix_set_color_all(0, 0, 0); */
+/*         rgb_matrix_set_color_all(RGB_OFF); */
+/*     } */
+/* } */
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
