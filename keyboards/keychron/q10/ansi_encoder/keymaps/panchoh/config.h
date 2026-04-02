@@ -24,6 +24,9 @@
 // https://docs.qmk.fm/tap_hold#retro-tapping
 #define RETRO_TAPPING
 
+// https://docs.qmk.fm/tap_hold#speculative-hold
+#define SPECULATIVE_HOLD
+
 // https://docs.qmk.fm/features/caps_word
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
