@@ -24,6 +24,9 @@
 // https://docs.qmk.fm/tap_hold#retro-tapping
 #define RETRO_TAPPING
 
+// https://docs.qmk.fm/features/caps_word
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
 // Left Control when pressed, Escape when tapped.
 #define CTL_ESC_T LCTL_T(KC_ESC)
 
